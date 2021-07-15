@@ -1,15 +1,16 @@
-let authorName = 'Maya Angelou';
-let nameOfBook= 'Yellow Tail';
-let favouriteParagraph = `"So long as there is rain in the world, there is still hope." - FD`;
-let longString = `From the book,
-I learned that as long as there
-is still rain in the world there is still hope.
-This means that as long as there is water we are not
-doomed becuase we will only be doomed
-when there is no more water.`
-let longerString = "I learned that " + "+ as long as there is rain " + "+ in the world there is still hope"
-console.log(authorName);
-console.log(nameOfBook);
-console.log(favouriteParagraph);
-console.log(longString);
-console.log(longerString)
+let age = prompt ('How old are you?');
+if (age <= 18){
+alert('Congratulations, you get a discount')
+
+let price = prompt('What\'s the price of the item?');
+console.log(price)
+discount = 50;
+let newPrice = Number(price);
+let total = newPrice - discount;
+result = 'You get to pay $ ${total} for this item'
+console.log(result)
+}
+else {
+    alert('Sorry you don\'t get a discount')
+}
+
